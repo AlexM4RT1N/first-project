@@ -787,6 +787,7 @@ body.ie .ibg > img {
   align-items: center; }
 
 .section1__image {
+  margin: 0   0 0;
   z-index: 2; }
 
 .section1__block2 {
@@ -815,6 +816,10 @@ body.ie .ibg > img {
   font-size: 17px;
   line-height: 36px; }
 
+.section1__block2-button {
+  width: 170px;
+  height: 45px; }
+
 .section1__icongadgets {
   position: absolute;
   top: 0;
@@ -822,9 +827,6 @@ body.ie .ibg > img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-
-.section1_icongadgets1.imageimg {
-  width: 66px; }
 
 .icongadgets {
   display: -webkit-box;
@@ -841,3 +843,18 @@ body.ie .ibg > img {
   height: 123px; }
   .icongadgets .image {
     z-index: 2; }
+
+.section1_icongadgets3 .image {
+  position: relative;
+  top: 5px; }
+
+.section1_icongadgets3:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -13px;
+  left: 43%;
+  border-top: 13px solid #027f83;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent; }
