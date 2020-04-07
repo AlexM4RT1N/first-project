@@ -119,16 +119,6 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%; }
-  @media (max-width: 1292px) {
-    .container {
-      max-width: 970px; } }
-  @media (max-width: 991.98px) {
-    .container {
-      max-width: 750px; } }
-  @media (max-width: 767.98px) {
-    .container {
-      max-width: none;
-      padding: 0 10px; } }
 
 .form-row {
   display: -webkit-box;
@@ -525,7 +515,7 @@ ol.counter {
 
 .ibg {
   position: relative; }
-  .ibg img {
+  .ibg > img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -539,7 +529,7 @@ body.ie .ibg {
   background-size: cover;
   background-repeat: no-repeat; }
 
-body.ie .ibg img {
+body.ie .ibg > img {
   width: 0;
   height: 0;
   opacity: 0;
@@ -689,19 +679,25 @@ body.ie .ibg img {
   display: -webkit-flex;
   display: flex;
   font-size: 0;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: wrap row;
-  flex-flow: wrap row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 973px;
+  max-width: 1030px;
   height: 99px;
   margin: 0 auto; }
+  .header__body {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 20px; }
 
 .header__logo {
   display: -webkit-box;
@@ -709,10 +705,12 @@ body.ie .ibg img {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 0 0 0 20px; }
 
 .logo__img {
-  position: relative; }
+  position: relative;
+  top: 3px; }
   .logo__img span {
     position: absolute;
     top: 5px;
@@ -722,9 +720,13 @@ body.ie .ibg img {
     text-transform: uppercase; }
 
 .logo__text span {
+  margin: 0 0 0 6px;
   color: #038c8c;
   font-family: "StRydeRegular";
   font-size: 43px; }
+
+.header__navmenu {
+  padding: 0 18px 0 0; }
 
 .navmenu__list li {
   display: inline-block;
@@ -732,15 +734,16 @@ body.ie .ibg img {
   .navmenu__list li::after {
     content: "";
     position: absolute;
-    left: 17px;
+    left: 15px;
+    top: 1px;
     width: 1px;
-    height: 22px;
+    height: 20px;
     background-color: #565656; }
   .navmenu__list li:first-child::after {
     display: none; }
 
 .navmenu__link {
-  margin: 0 0 0 34px;
+  margin: 0 0 0 30px;
   color: #565656;
   font-size: 19px; }
 
@@ -767,3 +770,74 @@ body.ie .ibg img {
 		}
 	}
 */
+.section1 {
+  height: 539px;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.section1__image {
+  z-index: 2; }
+
+.section1__block2 {
+  z-index: 2; }
+
+.section1__block2-icon span {
+  width: 87px;
+  height: 42px;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase; }
+
+.section1__block2-text h2 {
+  width: 339px;
+  height: 29px;
+  color: #ffffff;
+  font-size: 39px;
+  line-height: 36px;
+  text-transform: uppercase; }
+
+.section1__block2-text p {
+  width: 269px;
+  height: 18px;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 36px; }
+
+.section1__icongadgets {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.section1_icongadgets1.imageimg {
+  width: 66px; }
+
+.icongadgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffdf2a;
+  width: 119px;
+  height: 123px; }
+  .icongadgets .image {
+    z-index: 2; }
