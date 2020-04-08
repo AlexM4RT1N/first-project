@@ -732,13 +732,15 @@ body.ie .ibg > img {
   .logo__img span {
     position: absolute;
     top: 5px;
-    left: 5px;
+    left: 6px;
     color: #fff;
     font-size: 43px;
     text-transform: uppercase; }
 
 .logo__text span {
   margin: 0 0 0 6px;
+  position: relative;
+  top: 1px;
   color: #038c8c;
   font-family: "StRydeRegular";
   font-size: 43px; }
@@ -752,16 +754,16 @@ body.ie .ibg > img {
   .navmenu__list li::after {
     content: "";
     position: absolute;
-    left: 15px;
-    top: 1px;
+    left: 18px;
+    top: 2px;
     width: 1px;
-    height: 20px;
+    height: 19px;
     background-color: #565656; }
   .navmenu__list li:first-child::after {
     display: none; }
 
 .navmenu__link {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 35px;
   color: #565656;
   font-size: 19px; }
 
@@ -809,7 +811,7 @@ body.ie .ibg > img {
     align-items: center; }
 
 .section1__image {
-  margin: 0   0 0;
+  margin: 13px 0 0 0;
   z-index: 2; }
 
 .section1__block2 {
@@ -830,32 +832,33 @@ body.ie .ibg > img {
   -ms-flex-align: stretch;
   align-items: stretch;
   height: 247px;
+  width: 380px;
   position: relative;
   top: 36px;
   right: 5px;
-  margin: 0 97px 0 0;
+  margin: 0 55px 0 0;
   z-index: 2; }
 
+.section1__block2-icon img {
+  display: inline-block;
+  margin: 0 9px 0 -1px; }
+
 .section1__block2-icon span {
+  display: inline-block;
   color: #fff;
   font-size: 21px;
   line-height: 25px;
   text-transform: uppercase; }
 
 .section1__block2-text h2 {
-  width: 339px;
-  height: 29px;
+  margin: 17px 0 7px -3.5px;
   color: #ffffff;
   font-size: 39px;
-  line-height: 36px;
   text-transform: uppercase; }
 
 .section1__block2-text p {
-  width: 269px;
-  height: 18px;
   color: #ffffff;
-  font-size: 17px;
-  line-height: 36px; }
+  font-size: 17px; }
 
 .section1__block2-button {
   width: 170px;
@@ -868,7 +871,16 @@ body.ie .ibg > img {
     background-color: #54d3c3;
     color: #ffffff;
     font-size: 21px;
-    line-height: 36px; }
+    line-height: 40px;
+    position: relative; }
+    .section1__block2-button .buy__btn::before {
+      content: '';
+      background: url("../img/block1/3.svg") 0 0 no-repeat;
+      position: absolute;
+      top: 8px;
+      left: -40px;
+      width: 27px;
+      height: 29px; }
 
 .section1__icongadgets {
   position: absolute;
@@ -903,8 +915,8 @@ body.ie .ibg > img {
   position: absolute;
   width: 0;
   height: 0;
-  bottom: -13px;
+  bottom: -12px;
   left: 43%;
-  border-top: 13px solid #027f83;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent; }
+  border-top: 12px solid #027f83;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent; }
