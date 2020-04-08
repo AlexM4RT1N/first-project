@@ -874,7 +874,7 @@ body.ie .ibg > img {
     line-height: 40px;
     position: relative; }
     .section1__block2-button .buy__btn::before {
-      content: '';
+      content: "";
       background: url("../img/block1/3.svg") 0 0 no-repeat;
       position: absolute;
       top: 8px;
@@ -911,7 +911,7 @@ body.ie .ibg > img {
   top: 5px; }
 
 .section1_icongadgets3:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -920,3 +920,55 @@ body.ie .ibg > img {
   border-top: 12px solid #027f83;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent; }
+
+.section2 {
+  max-width: 955px;
+  text-align: center;
+  margin: 0 auto; }
+  .section2__about h2 {
+    color: #636363;
+    font-size: 41px;
+    line-height: 36px;
+    margin: 43px 0 0 19px; }
+  .section2__about p {
+    color: #9f9f9f;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 25px 0 38px 36px; }
+  .section2__image {
+    width: 481px;
+    height: 421px;
+    margin: 0 auto 110px auto;
+    position: relative;
+    left: 32px; }
+    .section2__image__imagebody {
+      position: relative;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      font-size: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #ffffff;
+      font-family: "NewAthenaUnicode";
+      margin: 0 46px 0 0; }
+      .section2__image__imagebody img {
+        margin: 70px 0 0 0;
+        width: 72px;
+        height: 103px; }
+      .section2__image__imagebody p {
+        margin: 26px 0 3px 0;
+        font-size: 88px; }
+      .section2__image__imagebody span {
+        position: relative;
+        right: 3px;
+        font-size: 42px; }
