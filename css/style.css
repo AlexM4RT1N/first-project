@@ -962,10 +962,10 @@ body {
         font-size: 65px;
         margin: 18px 0 0 0; } }
   .section4__block1-smalltext {
-    font-size: 74px;
-    line-height: 92.72px;
-    max-width: 409px;
-    padding: 0 0 0 16px; }
+      font-size: 74px;
+      line-height: 92.72px;
+      max-width: 409px;
+      padding: 0 0 0 16px; }
     @media (max-width: 991.98px) {
       .section4__block1-smalltext {
         font-size: 60px;
