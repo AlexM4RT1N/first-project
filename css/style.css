@@ -220,6 +220,7 @@ body {
       right: -1px;
       width: 320px;
       height: 100%;
+      padding: 0 0 12% 0;
       z-index: 10;
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
@@ -229,6 +230,7 @@ body {
       .header__navmenu.active {
         top: 69px;
         right: -1px;
+        overflow: auto;
         -webkit-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
         -ms-transition: all 0.3s ease 0s;
@@ -962,10 +964,10 @@ body {
         font-size: 65px;
         margin: 18px 0 0 0; } }
   .section4__block1-smalltext {
-      font-size: 74px;
-      line-height: 92.72px;
-      max-width: 409px;
-      padding: 0 0 0 16px; }
+    font-size: 74px;
+    line-height: 92.72px;
+    max-width: 409px;
+    padding: 0 0 0 16px; }
     @media (max-width: 991.98px) {
       .section4__block1-smalltext {
         font-size: 60px;
